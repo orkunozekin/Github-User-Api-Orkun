@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+    font-size: 20px;
+}
+
+.container {
+    font-size: 25px;
+    word-wrap: break-word;
+}
+
+#git-handle {
+ font-size: 20px;   
+}
+
+.button {
+    font-size: 20px;
+}
+
+li {
+    list-style-type: square;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        font-size: 30px;
+    }
+
+    #git-handle {
+        font-size: 30px;   
+       }
+
+       .button {
+        font-size: 30px;
+    }
+}
+
